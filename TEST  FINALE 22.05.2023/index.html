@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>TEST 22.05.2023</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                    <path
+                        d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zM243.8 381.4c0 43.6-25.6 63.5-62.9 63.5-33.7 0-53.2-17.4-63.2-38.5l34.3-20.7c6.6 11.7 12.6 21.6 27.1 21.6 13.8 0 22.6-5.4 22.6-26.5V237.7h42.1v143.7zm99.6 63.5c-39.1 0-64.4-18.6-76.7-43l34.3-19.8c9 14.7 20.8 25.6 41.5 25.6 17.4 0 28.6-8.7 28.6-20.8 0-14.4-11.4-19.5-30.7-28l-10.5-4.5c-30.4-12.9-50.5-29.2-50.5-63.5 0-31.6 24.1-55.6 61.6-55.6 26.8 0 46 9.3 59.8 33.7L368 290c-7.2-12.9-15-18-27.1-18-12.3 0-20.1 7.8-20.1 18 0 12.6 7.8 17.7 25.9 25.6l10.5 4.5c35.8 15.3 55.9 31 55.9 66.2 0 37.8-29.8 58.6-69.7 58.6z" />
+                </svg>
+            </div>
+
+            <ul class="nav-list">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">RISPOSTE</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="domande">
+            <section>
+                <p> 1- Cos'è Js quali sono le sue caratteristiche <br>
+                    2- Cos'è CSS quali sono le sue caratteristiche <br>
+                    3- cos'è HTML quali sono le sue caratteristiche <br>
+                    4- Cos'è Angular e quali sono le su principali
+                    caratteristiche? <br>
+                    5- In cosa si differenziano i linguaggi tipizzati e non , quindi TS e JS <br>
+                </p>
+            </section>
+        </div>
+        <button id="btn">Risposte</button>
+
+        <div class="risposte" id="risposte">
+            <section id="risposte" class="secRisp">
+                <p>1- Javascript a differenza dei linguaggi CSS e HTML, è un linguaggio di programmazione, più
+                    specificamente un linguaggio di scripting.
+                    Grazie a Javascript possiamo quindi rendere interattive le nostre pagine web, attraverso eventi,
+                    funzioni ecc.
+                    Javascript a differenza di molti altri linguaggi di programmazione non ha bisogno di avere un
+                    compilatore per essere interpretato, ma esso è infatti interpretato direttamente dal browser web.
+                    Javascript è un linguaggio di programmazione molto diffuso ed è presente nella maggior parte delle
+                    pagine web.
+                    Esso è definito un linguaggio di programmazione con una tipizzazione di "basso livello", poichè non
+                    è obbligatorio definire il tipo di dato ad una variabile ad esempio. <br>
+                    Con Javascript possiamo elaborare dati, eseguire operazioni, comunicare server esterni, creare
+                    funzioni, eventi ecc.
+                    Esso quindi ci permetti di manipolare il DOM(Document Object Model), ossia la pagina HTML, nella
+                    quale creiamo appunto eventi, come ad esempio rendere interattivo un bottone.
+                    Come tutti i linguaggi di programmazione anche in Javascript sono presenti le variabili e le
+                    costanti.
+                    La particolarità di esse sta nel fattto che possiamo dichiarare le variabili in due modi: Let e Var;
+                    Invece le costanti con const.
+                    Let è stata introdotta da poco in Javascript, essa si distingue da var sostanzialmente per una
+                    questione di Scope.
+                    La variabile Let infatti è disponibile solo all'interno del blocco di codice in cui è stata
+                    dichiarata. Invece la variabile var è disponibile all'interno dell'intera funzione in cui sono state
+                    dichiarate.
+                    Invece la costante const, si differienza dalle variabili, poiché appunto una volta assegnata non può
+                    essere modificata.
+
+                </p>
+            </section>
+
+            <section id="risposte" class="secRisp">
+                <p>2- CSS sta per (Cascade Style Sheet) è un linguaggio di stile, che serve per dare appunto uno stile
+                    alla pagina web. Come l'HTML anche questo linguaggio NON è un linguaggio di programmazione.
+                    Il CSS tramite attributi ci permette di modificare i componenti importati dalla pagina HTML. Ad
+                    esempio se importiamo un tag paragrafo dall'HTML, tramite CSS è possibile assegnargli un colore in
+                    questo modo:
+                    p { color:red };
+                    In questo esempio abbiamo fornito il colore rosso al testo del paragrafo.
+                    Per ordine all'inizio di un file CSS, è opportuno assegnargli delle istruzioni di reset. Per puntare
+                    all'intera pagina si usa il simbolo *.
+                    Quindi un esempio di CSS reset è il seguente:
+                    *{ padding: 0; margin: 0; box-sizing: border-box;}.
+                    Tramite queste istruzioni abbiamo dato quindi il valore 0 al padding, il valore 0 ai margini, e
+                    nell'ultima istruzione specifichiamo che tutti i vari elementi che compongono la pagina rientrino
+                    nello spazio del layout, portando con se anche altre proprietà tipo la larghezza, il padding e i
+                    bordi.
+                    Inoltre il CSS è usato per dimensionare la pagina web a seconda dello schermo che un utente
+                    utilizza, quindi rendere "responsive" le pagine web, utilizzando le media query.
+
+
+                </p>
+            </section>
+
+            <section id="risposte" class="secRisp">
+                <p>3- HTML sta per (Hypertetx Markup Language) è un linguaggio di markup, che serve per creare le pagine
+                    web. In sostanza HTML crea lo "scheletro" della pagina web, dopodiché è possibile collegare file
+                    Javascript e file CSS per aggiungere script o gestire lo stile del layout della pagina. HTML non è
+                    un linguaggio di programmazione quindi, poiché non contiene logica e non è possibile eseguire
+                    operazioni. <br>
+                    Una pagina HTML è formata da TAG per funzionare. Un tag è un elemento che serve per creare un
+                    qualsiasi componente, ad esempio il tag
+                    'p' serve per creare un paragrafo di testo, un tag
+                    'h1' serve per creare un titolo e così via. In HTML esistono i tag semantici, ossia quei tag che
+                    servono
+                    per ordinare al meglio il progetto. <br>
+                    Ad esempio quando troviamo il tag "header" capiamo subito che all'interno di questo tag ci saranno
+                    tutti gli elementi per creare la parte alta del sito, ad esempio una navbar. E' opportuno dare una
+                    classe o un id ad un tag in HTML, per poi modificarlo in CSS. Per classe intendiamo un attributo,
+                    che ci serve per poi modificare tutti i tag con la stessa classe in CSS.
+                    Per id intendiamo sempre un attributo, ma a differenza delle classi, l'id è univoco al singolo tag
+                    assegnato, per poi andarlo a modificare in CSS.
+                    Inoltre troviamo nella parte alta del progetto il tag "head", da non confondere con "header", nel
+                    quale sono presenti tutti i metadati che consentono al file html di comunicare con il browser web.
+                    Quindi in sostanza tutte le pagine web sono formate dal linguaggio HTML, cioè lo scheletro della
+                    pagina, al quale possiamo collegare i file CSS per dare lo stile alla pagina, e i file Javascript
+                    per dare appunto funzionalità aggiuntive alla pagina.
+                    Infine è bene ricordare che l'HTML NON è un linguaggio di programmazione.
+
+
+                </p>
+            </section>
+
+            <section id="risposte" class="secRisp">
+                <p>4- Angular sono presenti i componenti. Per componente intendiamo costrutti modulari che combinano
+                    logica e UI (User Iterface) in un singolo elemento. In altre parole sono delle parti
+                    dell'interfaccia utente che possono essere riutilizzate all'interno dell'applicazione.
+                    Ogni componente ha una classe typescript che definisce la logica e un template HTML che definisce la
+                    struttura.
+                    I componenti in angular inoltre seguono il pattern architetturale noto come component-based
+                    architecture, che consente una maggiore scalabilità e una maggiore facilità di manutenzione.
+                    Attraverso il routing è possibile collegare i singoli componenti tramite il decorator @component.
+                    Il routing consente quindi di navigare tra le diverse pagine del progetto. Si basa su un concetto di
+                    route, ossia un collegamento tra un url e una vista dell'applicazione. Ogni route viene definita
+                    all'interno di un modulo. Quando si va a digitare l'Url corrispondete alla route, Angular carica la
+                    vista associata alla route e la visualizza l'utente.
+                    Quindi in Angular possiamo definire il routing come un meccanismo fondamentale per la navigazione
+                    tra le diverse parti dell'applicazione.
+
+
+                </p>
+            </section>
+
+            <section id="risposte" class="secRisp">
+                <p>5- La differenza sostanziale tra i linguaggi tipizzati e non è per la gestione dei tipi di dati. <br>
+                    Javascript come spiegato in precedenza è un linguaggio di programmazione non tipizzato, il che significa che le variabili non hanno un tipo di dato definito, quindi puoi assegnare un valore di qualsiasi tipo a una variabile senza dichiarare esplicitamente il tipo di dato. <br>
+                    Ad esempio una variabile può contenere un numero inizialmente e una stringa in un secondo momento senza che il programma riporti errori. <br>
+                    Typescript invece è un linguaggio di programmazione tipizzato, definito come un "superSet" di Javascript, aggiungendo quindi il concetto di "forte tipizzazione". 
+                    In typescript è necessario dichiarare i tipi di dati alle variabili. Questa dichiarazione iniziale dei tipi consente di avere una maggiore organizzazione del codice.
+                    E' necessario ricordare che il codice Javascript valido è anche codice Typescript validio; ad esempio è possibile utilizzare librerie di JS in  un progetto TS senza doverli riscrivere
+
+                </p>
+            </section>
+        </div>
+
+    </main>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
